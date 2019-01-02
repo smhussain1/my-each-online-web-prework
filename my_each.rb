@@ -2,14 +2,14 @@
 i = 0
 numbers = []
 
+def my_each(numbers)
 while i < 6
-  print "At the top i is #{i}"
-  numbers.push(i)
-
+  yield i
   i += 1
   print "Numbers now: ", numbers
   print "At the bottom i is #{i}"
 end
+end 
 
 
 
