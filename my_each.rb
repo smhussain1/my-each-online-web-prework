@@ -1,8 +1,9 @@
 array = []
-
+i = 0
 def my_each(array)
   
-  while 
+  while i < 6
+  
   
 end
 
