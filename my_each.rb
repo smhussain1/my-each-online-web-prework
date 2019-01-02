@@ -7,6 +7,8 @@ def my_each(array)
   yields 
   array << (i)
   
+  
+  
 end
 
 my_each "Adding to the array."
