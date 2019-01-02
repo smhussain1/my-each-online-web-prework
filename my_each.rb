@@ -2,7 +2,7 @@ array = []
 count = 1 
 def my_each(array)
   while count < 8
-  yield ( "Hey, #{array} and #{count}.")
+  yield ("Hey, #{array} and #{count}.")
   count += 1 
   end
 end 
