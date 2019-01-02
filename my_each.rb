@@ -11,7 +11,7 @@ while i < 6
 end
 end 
 
-my_each { |num| i*2 }
+my_each { |num| puts "You see #{num} }
 
 
 # i = 0
