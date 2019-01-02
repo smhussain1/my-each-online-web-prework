@@ -7,7 +7,7 @@ def my_each(array)
   yields 
   array << (i)
   
-  
+  i +=
   
 end
 
