@@ -7,7 +7,7 @@ def my_each(array)
   end
 end 
 
-my_each(5) { |n| puts "My name is #{n}". }
+my_each { |n| puts "My name is #{n}". }
 
 
 # i = 0
