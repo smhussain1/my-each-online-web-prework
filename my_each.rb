@@ -9,7 +9,7 @@ def my_each(array, n)
   end 
 end
 
-# my_each { |x, y| x + y }
+my_each { |x, y| x + y }
 
 
 
