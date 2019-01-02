@@ -11,7 +11,7 @@ while i < 6
 end
 end 
 
-my_each (i) { |i| i*2 }
+my_each { |i| i*2 }
 
 
 # i = 0
