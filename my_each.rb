@@ -3,7 +3,7 @@ array = []
 n = 1 
 def my_each(array, n)
   while array.count < 8
-  puts "Counting..."
+  #puts "Counting..."
   array.push(n)
   n+= 1
 end 
