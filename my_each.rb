@@ -1,3 +1,10 @@
+array = []
+
+def my_each(array)
+  while 
+
+
+
 
 # i = 0
 # numbers = [1.2]
