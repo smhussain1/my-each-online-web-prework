@@ -1,6 +1,6 @@
 
 # i = 0
-numbers = []
+numbers = [1.2]
 
 def my_each(numbers)
   i = 0
