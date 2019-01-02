@@ -1,10 +1,11 @@
 
 # i = 0
-# numbers = []
+numbers = []
 
 def my_each(numbers)
   i = 0
   while i < 6
+    numbers.push(i)
     yield "The number is #{numbers} and #{i}."
     i += 1
       # print "Numbers now: ", numbers
