@@ -1,7 +1,11 @@
 array = []
-
+count = 1 
 def my_each(array)
-  while 
+  while count < 8
+  puts "Hey, #{array} and #{count}."
+  count += 1 
+  end
+end 
 
 
 
