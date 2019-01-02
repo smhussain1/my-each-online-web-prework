@@ -6,12 +6,12 @@ def my_each(numbers)
 while i < 6
   yield i
   i += 1
-  print "Numbers now: ", numbers
-  print "At the bottom i is #{i}"
+  # print "Numbers now: ", numbers
+  # print "At the bottom i is #{i}"
 end
 end 
 
-
+my_each (i) { |i| i*2 }
 
 
 # i = 0
