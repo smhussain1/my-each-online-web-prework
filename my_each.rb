@@ -3,6 +3,8 @@ i = 0
 numbers = []
 
 def my_each(numbers)
+
+
 while i < 6
   yield "The number is #{numbers} and #{i}."
   i += 1
