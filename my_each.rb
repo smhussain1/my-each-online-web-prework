@@ -7,7 +7,7 @@ def my_each(array, n)
   array.push(n)
   yield (array)
   yield (n)
-  n+= 1
+  n += 1
   end 
 end
 
