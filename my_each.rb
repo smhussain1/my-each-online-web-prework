@@ -11,4 +11,4 @@ while i < 6
   print "At the bottom i is #{i}"
 end
 
-puts "The numbers: "
+#puts "The numbers: "
