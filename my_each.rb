@@ -1,8 +1,8 @@
 
 
 def my_each(array, n)
-  
-  
+  array = []
+  n = 1 
   while array.count < 8
   array.push(n)
   yield (array)
