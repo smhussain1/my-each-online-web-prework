@@ -7,7 +7,7 @@ def my_each(array)
   end
 end 
 
-my each 
+my_each(5)
 
 
 # i = 0
