@@ -17,8 +17,8 @@ def my_each(arr)
   array = []
   n = 0
   while n < arr.length
-    yield(array[n])
-      array.push(n)
+    yield(arr[n])
+    array.push(n)
     n += 1
   end
   array
