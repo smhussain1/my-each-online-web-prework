@@ -3,7 +3,7 @@ def my_each(arr)
   n = 0
   while n < arr.length
     array.push(n)
-    yield(array)
+    yield(array[n])
     n+= 1
   end
   array
