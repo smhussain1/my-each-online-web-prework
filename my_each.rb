@@ -17,9 +17,9 @@ end
 #   array = []
 #   n = 0
 #   while n < arr.length
-#     
-      array.push(n)
 #     yield(array[n])
+      array.push(n)
+#     
 #     n += 1
 #   end
 #   array
