@@ -4,7 +4,7 @@ numbers = []
 
 def my_each(numbers)
 while i < 6
-  yield i
+  yield (i)
   i += 1
   # print "Numbers now: ", numbers
   # print "At the bottom i is #{i}"
