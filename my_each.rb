@@ -13,17 +13,16 @@ end
 
 
 
-# def my_each(arr)
-#   array = []
-#   n = 0
-#   while n < arr.length
-#     yield(array[n])
+def my_each(arr)
+  array = []
+  n = 0
+  while n < arr.length
+    yield(array[n])
       array.push(n)
-#     
-#     n += 1
-#   end
-#   array
-# end
+    n += 1
+  end
+  array
+end
 
 # def my_each(array, n)
 #   array = []
