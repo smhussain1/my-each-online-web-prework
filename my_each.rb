@@ -11,6 +11,6 @@ def my_each(array, n)
 end
 
 
-my_each(array, n) do |array| array*2 end 
+# my_each(array, n) do |array| array*2 end 
 
 
