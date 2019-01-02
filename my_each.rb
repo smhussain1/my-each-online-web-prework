@@ -1,18 +1,18 @@
-array = []
-i = 0
+# array = []
+# i = 0
 
-def my_each(array)
-  while i < 6
-  puts "i is #{i}."
-  yields 
-  array.push(i)
+# def my_each(array)
+#   while i < 6
+#   puts "i is #{i}."
+#   yields 
+#   array.push(i)
   
-  i += 1 
-  puts "Numbers now:", array 
-  end
-end
+#   i += 1 
+#   puts "Numbers now:", array 
+#   end
+# end
 
-my_each "Adding to the array."
+# my_each "Adding to the array."
 
 i = 0
 numbers = []
