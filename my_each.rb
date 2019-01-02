@@ -1,13 +1,22 @@
-array = []
-count = 1 
-def my_each(array)
-  while count < 8
-  yield ("Hey, #{array} and #{count}.")
-  count += 1 
-  end
-end 
 
-my_each { |n| puts "My name is #{n}". }
+my_eachdef 
+
+
+
+
+
+
+
+# array = []
+# count = 1 
+# def my_each(array)
+#   while count < 8
+#   yield ("Hey, #{array} and #{count}.")
+#   count += 1 
+#   end
+# end 
+
+# my_each { |n| puts "My name is #{n}". }
 
 
 # i = 0
