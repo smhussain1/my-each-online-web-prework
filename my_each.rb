@@ -1,16 +1,16 @@
 
-i = 0
-numbers = []
+# i = 0
+# numbers = []
 
 def my_each(numbers)
-
-
-while i < 6
-  yield "The number is #{numbers} and #{i}."
-  i += 1
-  # print "Numbers now: ", numbers
-  # print "At the bottom i is #{i}"
-end
+  i = 0
+  numbers = []
+  while i < 6
+    yield "The number is #{numbers} and #{i}."
+    i += 1
+      # print "Numbers now: ", numbers
+      # print "At the bottom i is #{i}"
+  end
 end 
 
 my_each { |num| puts "You see #{num}." }
