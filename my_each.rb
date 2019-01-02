@@ -5,7 +5,7 @@ def my_each(array)
   while i < 6
   puts "i is #{i}."
   yields 
-  array << (i)
+  array.push(i)
   
   i += 1 
   puts "Numbers now:", array 
