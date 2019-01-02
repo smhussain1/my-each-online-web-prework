@@ -9,7 +9,7 @@ def my_each(array)
   
   i += 1 
   puts "Numbers now:", array 
-  
+  end
 end
 
 my_each "Adding to the array."
